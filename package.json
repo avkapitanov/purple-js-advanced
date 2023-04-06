@@ -1,0 +1,29 @@
+{
+  "name": "book-app",
+  "version": "1.0.0",
+  "description": "Cool book app",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avkapitanov/purple-js-advanced.git"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "Artem Kapitanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avkapitanov/purple-js-advanced/issues"
+  },
+  "homepage": "https://github.com/avkapitanov/purple-js-advanced#readme",
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "live-server": "^1.2.2",
+    "rollup": "^3.14.0"
+  }
+}
