@@ -22,8 +22,10 @@
   },
   "homepage": "https://github.com/avkapitanov/purple-js-advanced#readme",
   "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.2",
     "eslint": "^8.37.0",
     "live-server": "^1.2.2",
-    "rollup": "^3.14.0"
+    "rollup": "^3.14.0",
+    "rollup-plugin-import-css": "^3.2.1"
   }
 }
