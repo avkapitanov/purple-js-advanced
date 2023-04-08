@@ -8,9 +8,8 @@ export class Header extends DivComponent {
   }
 
   render() {
-    this.el.innerHTML = '';
     this.el.classList.add('header');
-    this.el.innerHtml = `
+    this.el.innerHTML = `
       <div>
         <img src="/static/logo.svg" alt="Логотип" />
       </div>

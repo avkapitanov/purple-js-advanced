@@ -5,7 +5,7 @@ class App {
     {path: "", view: MainView}
   ];
   appState = {
-    favorites: {}
+    favorites: []
   }
 
   constructor() {
